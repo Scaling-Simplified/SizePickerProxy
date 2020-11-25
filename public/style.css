@@ -1,0 +1,18 @@
+.fixed-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 450px;
+}
+
+#TrackPinch {
+  margin-right: 450px;
+}
+
+#SizePicker {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
