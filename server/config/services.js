@@ -41,24 +41,24 @@
 */
 
 module.exports = {
-  service1: {
-    api: '/products/:id/trackpinch',
-    url: 'http://18.212.32.173:3001/',
-    bundle: '/dist/bundle.js',
-  },
+  // service1: {
+  //   api: '/products/:id/trackpinch',
+  //   url: 'http://18.212.32.173:3001/',
+  //   bundle: '/dist/bundle.js',
+  // },
   service2: {
     api: '/products/:id/sizepicker',
-    url: 'http://35.160.105.13:3002/',
+    url: 'http://54.193.179.234:3002',
     bundle: 'bundle.js',
   },
-  service3: {
-    api: '/products/:id/suggestions',
-    url: 'http://54.153.99.6:3003/',
-    bundle: 'bundle.js',
-  },
-  service4: {
-    api: '/products/:id/reviews',
-    url: 'http://184.169.207.158:3004/',
-    bundle: 'bundle.js',
-  },
+  // service3: {
+  //   api: '/products/:id/suggestions',
+  //   url: 'http://54.153.99.6:3003/',
+  //   bundle: 'bundle.js',
+  // },
+  // service4: {
+  //   api: '/products/:id/reviews',
+  //   url: 'http://184.169.207.158:3004/',
+  //   bundle: 'bundle.js',
+  // },
 };
